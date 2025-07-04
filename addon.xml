@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.screensaver.logoff" name="Logoff" version="1.1.2" provider-name="MattGrenier">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_US">"Screensaver" that will log off your XBMC/Kodi profile</summary>
+    <description lang="en_US">Not really a screensaver, but makes your system automatically log off the active XBMC/Kodi profile according to your "Screensaver time".</description>
+    <language>en</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
